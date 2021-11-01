@@ -1,0 +1,37 @@
+body{
+    background-color: teal;
+}
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    background-color: tomato;
+    width: 50vw;
+    max-width: 859px;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.modal{
+    display: none;
+}
+.modal.modal-open{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.739);
+    display: grid;
+    place-items: center;
+}
+.modal-open .modal-container{
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    width: 60vw;
+    max-width: 1000px;
+    border-radius: 20px;
+}

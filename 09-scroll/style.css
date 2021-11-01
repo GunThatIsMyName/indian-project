@@ -1,0 +1,40 @@
+body{
+    margin: 4rem 0 0 0;
+    padding: 0;
+
+}
+h2{
+    margin: 0;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+.router span{
+    color: white;
+    text-transform: uppercase;
+    margin: 1rem;
+    cursor: pointer;
+}
+.router span:hover {
+    color: rebeccapurple;
+}
+
+.section{
+    min-height: 90vh;
+    text-align: center;
+    font-size: 4rem;
+}
+.section:nth-child(odd){
+    background-color: rebeccapurple;
+}
+.section:nth-child(even){
+    background-color: rgb(143, 143, 143);
+}

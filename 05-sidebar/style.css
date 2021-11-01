@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bars{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bars:hover{
+    background-color: black;
+    color: white;
+}
+.side{
+    position: absolute;
+    height: 0px;
+    background-color: aqua;
+    height: 100vh;
+    transition: 0.3s all linear;
+    transform: translateX(-100%);
+}
+.side.open{
+    transform: translateX(0);
+}
+.top{
+    display: flex;
+    padding: 0 2rem;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+}
+.top button{
+    margin-left: 1rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: red;
+    font-weight: bold;
+    height: 2rem;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+

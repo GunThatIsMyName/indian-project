@@ -1,0 +1,55 @@
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.column {
+  display: flex;
+}
+.first .bars {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 1000px) {
+  nav {
+    display: block;
+  }
+  .first {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+  .first .bars {
+    display: block;
+    background-color: transparent;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .first .bars:hover {
+    transform: rotate(360deg);
+  }
+  .first .bars:active {
+    transform: scale(5);
+  }
+  .third {
+    display: none;
+  }
+  .second {
+    display: block;
+    height: 0;
+    transition: 0.3s all linear;
+  }
+  .second.second-active {
+    transition: 0.3s all linear;
+    height: 7rem;
+  }
+  .second.second-active .item:hover {
+    background-color: rosybrown;
+    padding:0 1rem ;
+  }
+}
