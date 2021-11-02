@@ -1,0 +1,34 @@
+main{
+    background-color: teal;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2rem 3rem;
+}
+.popup{
+    visibility: hidden;
+}
+.popup.edit{
+    visibility: visible;
+    background-color:turquoise;
+}
+.popup.delete{
+    visibility: visible;
+    background-color: tomato;
+}
+.popup.add{
+    visibility: visible;
+    background-color: rgb(172, 71, 255);
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section.show-container .clear-btn{
+    visibility: visible;
+}
+
+.clear-btn{
+    visibility: hidden;
+}
