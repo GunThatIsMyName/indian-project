@@ -1,0 +1,23 @@
+.cocktails{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: auto;
+    max-width: 1000px;
+}
+.cocktail{
+    position: relative;
+}
+.item{
+    width: 250px;
+    border-radius: 20px;
+}
+.item-name{
+    position: absolute;
+    background-color: orange;
+    bottom: -30px;
+    padding: 5px 10px;
+    font-size: 1.6rem;
+    right: 0;
+    border-radius: 20px;
+}
